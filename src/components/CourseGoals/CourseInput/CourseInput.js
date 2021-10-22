@@ -16,7 +16,8 @@ const FormControl = styled.div`
     display: block;
     width: 100%;
     border: 1px solid ${(props) => (props.invalid ? "red" : "#ccc")};
-    background: ${(props) => (props.invalid ? "rgb(238, 174, 174)" : "transparent")}
+    background: ${(props) =>
+      props.invalid ? "rgb(238, 174, 174)" : "transparent"}
     font: inherit;
     line-height: 1.5rem;
     padding: 0 0.25rem;
